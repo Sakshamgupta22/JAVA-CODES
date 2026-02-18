@@ -7,7 +7,7 @@ public class loop2 {
     int option;
     char ch = 'y';
     do{
-    System.out.println("/t /t Welcome to menu driven program for area calculator");
+    System.out.println("\t \t Welcome to menu driven program for area calculator");
     System.out.println("1. Cricle Area");
     System.out.println("2. Rectangle Area");
     System.out.println("3. Square Area");
@@ -33,7 +33,7 @@ public class loop2 {
         System.out.println("Enter the side of square");
         side =sc.nextFloat();
         area = side*side;
-        System.out.println("Area of sqaure is"+area);
+        System.out.println("Area of sqaure is "+area);
         break;
 default:
     System.out.println("Invaild Option");
@@ -42,4 +42,5 @@ default:
     ch = sc.next().charAt(0);
     }while(ch=='y');
 }
+
 }
